@@ -25,8 +25,8 @@ function statusChangeCallback(response) {
     //document.getElementById("name").text(response.name);
     //document.getElementById("photo").attr("src","response.picture.url");
     $(".facebookLogin").hide();
-    $("h1").text(response.name);
-    $("#photo").attr("src",response.picture.url);
+    $(".jumbotron").text(response.name);
+    $("#photo").attr('src',response.picture.data.url);
     //$("img").attr("width","500");
     //$("img").attr("width","500");
     //$("img").attr("width","500");
