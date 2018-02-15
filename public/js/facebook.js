@@ -19,14 +19,14 @@ function statusChangeCallback(response) {
 }
 
   function changeUser(response) {
-    console.log(response.pictureS);
+    console.log(response.name);
     console.log(1000000);
     //document.getElementsByClassName("facebookLogin").hide();
     //document.getElementById("name").text(response.name);
     //document.getElementById("photo").attr("src","response.picture.url");
     $(".facebookLogin").hide();
     $("h1").text(response.name);
-    $("#photo").attr("#src",response.picture.url);
+    $("#photo").attr("src",response.picture.url);
     //$("img").attr("width","500");
     //$("img").attr("width","500");
     //$("img").attr("width","500");
